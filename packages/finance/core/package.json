@@ -1,0 +1,23 @@
+{
+  "name": "@ddd/finance",
+  "version": "1.0.0",
+  "description": "Core utilities and shared logic for the application.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --minify",
+    "dev": "tsup src/index.ts --dts --watch",
+    "test": "jest --watchAll --collectCoverage"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.14",
+    "@ddd/shared": "*",
+    "@ddd/typescript-config": "*",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "tsup": "^8.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

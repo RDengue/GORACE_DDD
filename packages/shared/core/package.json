@@ -1,0 +1,21 @@
+{
+  "name": "@ddd/shared",
+  "version": "1.0.0",
+  "description": "Core utilities and shared logic for the application.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --minify",
+    "dev": "tsup src/index.ts --dts --watch"
+  },
+  "dependencies": {
+    "tsup": "^8.4.0",
+    "uuid": "^11.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/uuid": "^10.0.0"
+  }
+}
